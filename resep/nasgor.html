@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Website berisi resep makanan" />
+    <meta name="keywords" content="resep, makanan, kuliner, memasak" />
+    <meta name="author" content="Delfood" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Resep Makanan</title>
+    <link rel="stylesheet" href="./style/style-resep.css" />
+    <link rel="shortcut icon" href="./gambar/favicon.ico" type="image/x-icon" />
+
+    <style>
+      body {
+        background-color: rgb(235, 235, 212);
+      }
+      header {
+        background-color: rgb(208, 173, 132);
+        padding: 40px;
+        margin: 0;
+      }
+
+      h1 {
+        text-align: center;
+        text-shadow: 3px 1px;
+        color: rgb(231, 224, 205);
+        font-size: 40px;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+
+      nav ul {
+        position: sticky;
+        top: 0;
+        list-style-type: none;
+        margin: 0;
+        padding: 5px;
+        overflow: hidden;
+        background-color: rgb(202, 128, 128);
+      }
+
+      nav li {
+        float: left;
+      }
+
+      nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      nav li a:hover:not(.active) {
+        background-color: rgb(69, 60, 60);
+      }
+
+      /* Create three equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 15px;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
+
+      footer {
+        text-align: center;
+        padding: 60px;
+        color: rgb(19, 18, 18);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Delicious Food</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resep.html">Resep Makanan</a></li>
+        <li><a href="galery.html">Gallery</a></li>
+        <li><a href="kuliner.html">Kuliner</a></li>
+      </ul>
+    </nav>
+    <div class="row">
+      <div class="column">
+        <h4>Nasi Goreng</h4>
+        <p>Bahan:</p>
+        <ul>
+          <li>Nasi putih 1 piring</li>
+          <li>Bawang putih 2 siung, cincang halus</li>
+          <li>Kecap manis atau kecap asin, sesuaikan dengan selera</li>
+          <li>Saus sambal sesuai selera</li>
+          <li>Saus tiram sesuai selera</li>
+          <li>Garam secukupnya</li>
+          <li>Kaldu bubuk rasa ayam atau sapi sesuai selera</li>
+          <li>Daun bawang 1 batang, cincang halus</li>
+          <li>Telur ayam 1 butir</li>
+          <li>Sosis ayam 1 buah, iris tipis</li>
+          <li>Margarin atau minyak goreng 3 sdm</li>
+        </ul>
+        <p>Cara membuat:</p>
+        <ol>
+          <li>
+            Siapkan penggorengan dengan api sedang, tuang margarin atau minyak
+            goren.
+          </li>
+          <li>
+            Masukkan bawang putih dan daun bawang yang sudah dicincang halus.
+            Tumis hingga berbau harum atau hingga warnanya keemasan
+          </li>
+          <li>Masukkan sosis dan 1 butir telur ayam. Tumis sebentar</li>
+          <li>Masukkan bumbu halus dan nasi. Aduk hingga tercampur rata</li>
+          <li>
+            Tuang kecap manis, saus sambal, saus tiram, garam, dan kaldu bubuk.
+            Aduk hingga warna nasi berubah secara merata
+          </li>
+          <li>Nasi goreng siap disajikan</li>
+        </ol>
+      </div>
+    </div>
+  </body>
+</html>

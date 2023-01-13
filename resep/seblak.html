@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Website berisi resep makanan" />
+    <meta name="keywords" content="resep, makanan, kuliner, memasak" />
+    <meta name="author" content="Delfood" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Resep Makanan</title>
+    <link rel="stylesheet" href="./style/style-resep.css" />
+    <link rel="shortcut icon" href="./gambar/favicon.ico" type="image/x-icon" />
+
+    <style>
+      body {
+        background-color: rgb(235, 235, 212);
+      }
+      header {
+        background-color: rgb(208, 173, 132);
+        padding: 40px;
+        margin: 0;
+      }
+
+      h1 {
+        text-align: center;
+        text-shadow: 3px 1px;
+        color: rgb(231, 224, 205);
+        font-size: 40px;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+
+      nav ul {
+        position: sticky;
+        top: 0;
+        list-style-type: none;
+        margin: 0;
+        padding: 5px;
+        overflow: hidden;
+        background-color: rgb(202, 128, 128);
+      }
+
+      nav li {
+        float: left;
+      }
+
+      nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      nav li a:hover:not(.active) {
+        background-color: rgb(69, 60, 60);
+      }
+
+      /* Create three equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 15px;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
+
+      footer {
+        text-align: center;
+        padding: 60px;
+        color: rgb(19, 18, 18);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Delicious Food</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resep.html">Resep Makanan</a></li>
+        <li><a href="galery.html">Gallery</a></li>
+        <li><a href="kuliner.html">Kuliner</a></li>
+      </ul>
+    </nav>
+    <div class="row">
+      <div class="column">
+        <h4>Nasi Goreng</h4>
+        <p>Bahan:</p>
+            <ul>
+                <li>1 genggam kerupuk, rebus selama beberapa menit hingga empuk</li>
+                <li>5 buah bakso sapi, iris tipis</li>
+                <li>2 buah sosis sapi atau ayam, iris tipis</li>
+                <li>1 genggam makaroni, rebus hingga setengah matang</li>
+                <li>Sawi secukupnya, iris sesuai selera</li>
+                <li>Garam secukupnya</li>
+                <li>Kaldu bubuk secukupnya</li>
+                <li>Air secukupnya untuk kuah</li>
+                <li>Minyak goreng secukupnya untuk menumis bumbu</li>
+            </ul>
+        <p>Bumbu halus:</p>
+            <ul>
+                <li>3 buah cabai merah kering</li>
+                <li>5 buah cabai rawit</li>
+                <li>4 siung bawang putih</li>
+                <li>2 siung bawang merah</li>
+                <li>1 ruas kencur</li>
+                <li>2 butir kemiri</li>
+            </ul>
+        <p>Cara membuat:</p>
+            <ol>
+                <li>Haluskan bawang merah, bawang putih, cabai rawit, cabai merah kering, kencur dan kemiri.</li>
+                <li>Panaskan wajan dengan api sedang, dan tuang minyak goreng. Jika sudah panas, masukkan bumbu yang sudah dihaluskan tadi.</li>
+                <li>Tumis hingga bumbu halus matang.</li>
+                <li>Setelah bumbu matang, masukkan sosis dan juga bakso yang sudah dipotong-potong.</li>
+                <li>Aduk-aduk hingga bumbu menyatu, lalu tuangkan air secukupnya. Lalu aduk lagi hingga rata.</li>
+                <li>Masukkan bumbu penyedap seperti kaldu ayam bubuk, dan garam. Lalu aduk rata hingga air mendidih.</li>
+                <li>Tambahkan sawi yang sudah dipotong besar, dan juga makaroni yang sudah direbus.</li>
+                <li>Kocok satu butir telur dan masukkan ke dalam wajan. Lalu diamkan sebentar, setelah aduk telur dengan kuah seblak.</li>
+                <li>Tambahkan kerupuk yang sudah direbus ke dalam wajan. Aduk dan diamkan sebentar.</li>
+                <li>Seblak siap disajikan.</li>
+            </ol>
